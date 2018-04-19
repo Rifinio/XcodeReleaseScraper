@@ -39,6 +39,7 @@ new_release_version = 0
 if len(release_data_split) > 0:
 	new_release_version = float(release_data_split[1])
 
+
 message = ''
 if new_release_version > float(latest_release_version):
 	message = 'A new '+ word_to_look_for +' release is out :rocket:' + '\n:pizza_party: '+last_news_release + ' :pizza_party: \nFind out more here ' + url
